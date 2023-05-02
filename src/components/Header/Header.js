@@ -39,10 +39,13 @@ export default function Header() {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Testimonials</a>
+                <a href="/testimonials">Testimonials</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/about">About</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/contact">Contact</a>
@@ -53,10 +56,13 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li>
-            <a href="/about">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/portfolio">Testimonials</a>
+            <a href="/testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
